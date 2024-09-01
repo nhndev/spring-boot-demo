@@ -60,7 +60,7 @@ public class SecurityConfig {
                                                                                                                       "/swagger-ui.html")
 
                                                                                                      .permitAll()
-                                                                                                     .requestMatchers("/api/auth/login")
+                                                                                                     .requestMatchers("/api/auth/login", "/api/products/**")
                                                                                                      .permitAll());
 
 
